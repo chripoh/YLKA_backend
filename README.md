@@ -1,6 +1,6 @@
 # YLKA_backend
 
-Backend for YLKA, written in Python
+Backend for [YLKA](https://github.com/chripoh/YLKA), written in Python.
 
 
 ### TBD:
