@@ -2,6 +2,8 @@ from ast import stmt
 import psycopg2
 
 
+#TODO: Remove Test-Credentials after local development
+
 try:
     conn = psycopg2.connect("dbname='testdb' user='testuser' host='localhost' password='testpw'")
 except:
@@ -14,7 +16,6 @@ try:
     cur.execute("INSERT INTO users(firstname, lastname, username, email) VALUES (%s,%s,%s,%s)", 
 ('test', 'dummy', 'testdummy', 'test@dum.my'))
 except Exception as err:
-    print('WARUM=!')
     print(err)
 
 

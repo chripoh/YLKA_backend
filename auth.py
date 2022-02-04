@@ -1,6 +1,8 @@
 import jwt
 
-secrret_key = 'feY5QNYQVMItpPTWq8o7cZbgh9vxqlGuOOCA' #TODO: if public remove secret
+#TODO: Change and remove secret after local development
+
+secrret_key = 'feY5QNYQVMItpPTWq8o7cZbgh9vxqlGuOOCA' 
 
 
 def genAccessToken():
