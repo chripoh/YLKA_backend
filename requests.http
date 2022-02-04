@@ -1,0 +1,12 @@
+GET http://127.0.0.1:5000/user
+
+
+###
+
+POST http://127.0.0.1:5000/user
+content-type: application/json
+
+{
+    "key": "Hello World",
+    "bums": "Bumsi-Bums bums"
+}
